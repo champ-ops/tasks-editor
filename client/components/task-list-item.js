@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import './taskListItem.scss'
+import './styles.scss'
 
 const TaskListItem = (props) => {
   const [editingMode, setEditingMode] = useState(false)
   const [editingName, setEditingName] = useState(props.title)
   return (
-    <div className="flex mb-8 justify-between text-white ">
+    <div className="flex mb-8 justify-between text-white text-lg ">
       {editingMode ? (
         <div>
           <button

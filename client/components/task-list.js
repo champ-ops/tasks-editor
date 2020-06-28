@@ -21,7 +21,7 @@ const taskList = (props) => {
       <div>
         <input
           type="text"
-          className="bg-teal-100 rounded-l-lg w-9/12 p-1"
+          className="bg-teal-100 rounded-l-lg w-9/12 p-1 text-black"
           placeholder="Enter task name..."
           value={newTask}
           onChange={(e) => setNewTask(e.target.value)}

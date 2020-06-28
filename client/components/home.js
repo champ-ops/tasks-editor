@@ -3,7 +3,7 @@ import { Route, useParams } from 'react-router-dom'
 import axios from 'axios'
 import Main from './main'
 import TaskList from './task-list'
-import './home.scss'
+import './styles.scss'
 
 const Home = () => {
   const { category, timespan } = useParams()

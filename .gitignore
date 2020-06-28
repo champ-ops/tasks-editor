@@ -65,4 +65,4 @@ dist
 .DS_Store
 */.DS_Store
 yarn-error.log
-*.csv
+*.csv"node_modules" 

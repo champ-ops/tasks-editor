@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import './main.scss'
+import './styles.scss'
 
 const Main = (props) => {
   const [category, setCategory] = useState('')
@@ -14,7 +14,7 @@ const Main = (props) => {
       <input
         type="text"
         placeholder="Enter category name..."
-        className="bg-teal-100 rounded-l-lg mt-4 p-1"
+        className="bg-teal-100 rounded-l-lg mt-4 p-1 text-black"
         value={category}
         onChange={(e) => setCategory(e.target.value)}
       />
