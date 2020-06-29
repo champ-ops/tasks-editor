@@ -60,8 +60,8 @@ const Home = () => {
   }
 
   return (
-    <div className=" flex img">
-      <div className="bg-gray-600 rounded-lg m-auto p-16 text-white">
+    <div className=" flex">
+      <div className="bg-gray-600 rounded-lg m-auto blocks text-white">
         <Route
           exact
           path="/"

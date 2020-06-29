@@ -6,7 +6,7 @@ const TaskListItem = (props) => {
   const [editingMode, setEditingMode] = useState(false)
   const [editingName, setEditingName] = useState(props.title)
   return (
-    <div className="flex mb-8 justify-between text-white text-lg ">
+    <div className="flex mb-8 justify-between mt-8 text-white texts ">
       {editingMode ? (
         <div>
           <button

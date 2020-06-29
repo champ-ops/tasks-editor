@@ -3,18 +3,27 @@
   margin: 0;
 }
 
-.img {
-  background: url("https://hdwallpaper20.com/wp-content/uploads/data/2018/3/3/hd-pics-photos-stunning-attractive-atom-11-hd-desktop-background-wallpaper.jpg") no-repeat, center, fixed;
+body {
+  background: url("https://hdwallpaper20.com/wp-content/uploads/data/2018/3/3/hd-pics-photos-stunning-attractive-atom-11-hd-desktop-background-wallpaper.jpg") center, fixed;
   background-size: cover;
   align-content: stretch;
   height: 700px;
+}
+.blocks{
+  width: 430px;
+  height: 100%;
+  padding: 24px;
+  margin-top: 55px;
+}
+.texts{
+  font-size: 16px;
 }
 
 .tasks {
   border-bottom: 1px solid;
   text-align: center;
   margin-bottom: 8px;
-  font-size: 20px;
+  font-size: 23px;
 
 }
 
