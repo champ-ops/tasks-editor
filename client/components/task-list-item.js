@@ -11,7 +11,7 @@ const TaskListItem = (props) => {
         <div>
           <button
             type="button"
-            className="bg-black text-white mr-3  px-3 rounded-md"
+            className="bg-black text-white mr-3  px-2 rounded-md"
             onClick={() => {
               props.updateTitle(props.taskId, editingName)
               setEditingMode(false)
@@ -30,7 +30,7 @@ const TaskListItem = (props) => {
         <div className="flex">
           <button
             type="button"
-            className="bg-black text-white mr-3 px-3 rounded-md"
+            className="bg-black text-white mr-3 px-2 rounded-md"
             onClick={() => setEditingMode(true)}
           >
             Edit
@@ -39,7 +39,7 @@ const TaskListItem = (props) => {
           <div className="switch-status">
             {props.status === 'new' && (
               <button
-                className="bg-orange-500 ml-2 px-3 rounded-md text-white"
+                className="bg-orange-500 ml-2 px-2 rounded-md text-white"
                 type="button"
                 onClick={() => props.updateStatus(props.taskId, 'in progress')}
               >
@@ -49,14 +49,14 @@ const TaskListItem = (props) => {
             {props.status === 'in progress' && (
               <div>
                 <button
-                  className="bg-red-600 mr-4 ml-2 px-3 rounded-md text-white"
+                  className="bg-red-600 mr-3 ml-2 px-2 rounded-md text-white"
                   type="button"
                   onClick={() => props.updateStatus(props.taskId, 'blocked')}
                 >
                   Blocked
                 </button>
                 <button
-                  className="bg-green-400 px-3 rounded-md text-white"
+                  className="bg-green-400 px-2 rounded-md text-white"
                   type="button"
                   onClick={() => props.updateStatus(props.taskId, 'done')}
                 >
@@ -66,7 +66,7 @@ const TaskListItem = (props) => {
             )}
             {props.status === 'blocked' && (
               <button
-                className="bg-blue-400 mr-4 ml-2 px-3 rounded-md text-white"
+                className="bg-blue-400 mr-3 ml-2 px-2 rounded-md text-white"
                 type="button"
                 onClick={() => props.updateStatus(props.taskId, 'in progress')}
               >
@@ -75,7 +75,7 @@ const TaskListItem = (props) => {
             )}
             {props.status === 'done' && (
               <button
-                className="bg-red-700 mr-4 ml-2 px-3 rounded-md text-white"
+                className="bg-red-700 mr-3 ml-2 px-2 rounded-md text-white"
                 type="button"
                 onClick={() => props.deleteTask(props.taskId, 'done')}
               >
