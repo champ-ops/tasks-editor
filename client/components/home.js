@@ -4,6 +4,7 @@ import axios from 'axios'
 import Main from './main'
 import TaskList from './task-list'
 import './styles.scss'
+import '../assets/scss/main.scss'
 
 const Home = () => {
   const { category, timespan } = useParams()

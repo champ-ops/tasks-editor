@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './styles.scss'
+import '../assets/scss/main.scss'
 
 const timeSpan = (props) => {
   return (

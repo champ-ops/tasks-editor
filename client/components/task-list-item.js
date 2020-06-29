@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './styles.scss'
+import '../assets/scss/main.scss'
 
 const TaskListItem = (props) => {
   const [editingMode, setEditingMode] = useState(false)
